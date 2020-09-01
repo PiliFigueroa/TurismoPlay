@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="css/home.css">
+    <link type="text/css" rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>TurismoPlay - Home</title>
+</head>
+<body>
+    <!-- MENU DE NAVEGACION -->
+    <header class="verde">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo.png" width="35" height="35" class="d-inline-block align-top"
+                                alt="">
+                            TurismoPlay
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#burger" aria-controls="burger"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="burger">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-white" target="_blank" href="producto.html">Paquetes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Travel Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#"><b>Login</b></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+    <!-- BANNER BUSCADOR -->
+    <section class="buscador">
+        <div class="container center align-items-center">
+            <div class="row d-flex flex-sm-column">
+                <div class="col-12">
+                    <label class="sr-only" for="buscador">Busca tu proximo destino</label>
+                    <label for="buscador" class="buscador-titulo text-white">Buscá tu próximo destino</label>
+                    <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text"><i class="fa fa-search"></i></div>
+                        </div>
+                        <input type="search" class="form-control" name="buscador" id="buscador" placeholder="Ushuaia, Tierra del Fuego">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- COTIZACION DEL VIAJE - PRESENTACION EMPRESA -->
+    <section class="cotiza">
+        <div class="container">
+            <div class="row my-5">
+                <div class="col center">
+                    <h1 class="titulo">Cotizá tu viaje</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 col-12 center">
+                    <div class="thumb">
+                        <img src="img/plain.png" class="img-fluid shadow rounded" alt="Avion">
+                        <p>Transporte</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12 center">
+                    <div class="thumb">
+                        <img src="img/hotel.png" class="img-fluid shadow rounded" alt="Avion">
+                        <p>Hospedaje</p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-12 center">
+                    <div class="thumb">
+                        <img src="img/kayak.png" class="img-fluid shadow rounded" alt="Avion">
+                        <p>Excursiones</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row center mt-3">
+                <div class="col-12 col-md-10 text-center">
+                    <p class="descripcion">A nosotros nos importa no sólo que cumplas tus sueños, sino que puedas hacerlo de forma práctica, accesible y flexible. Por
+                    eso, consideramos que lo mejor es que puedas combinar tus preferencias en tres simples pasos para cotizar el viaje.
+                    Además, tus sueños no tienen porque esperar: en TurismoPlay decimos viajá ahora, paga después.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BOTONES - OPCIONES DE PRODUCTOS -->
+    <section class="botones center">
+        <button class="btn">Destinos</button>
+        <button class="btn">Hoteles</button>
+        <button class="btn">Excursiones</button>
+    </section>
+    <!-- SLIDER -->
+    <section class="paquetes my-5 d-none d-sm-block">
+        <div class="center mb-3">
+            <h2 class="titulo">Paquetes mas elegidos</h2>
+        </div>
+        <div id="indicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#indicators" data-slide-to="0" class="active"></li>
+                <li data-target="#indicators" data-slide-to="1"></li>
+                <li data-target="#indicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="producto.html"><img src="img/slide-1.png" class="d-block w-100" alt="Mendoza"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Mendoza</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="producto.html"><img src="img/slide-2.png" class="d-block w-100" alt="Salta"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Salta</h2>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <a href="producto.html"><img src="img/slide-3.png" class="d-block w-100" alt="Cancun"></a>
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Cancun</h2>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#indicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#indicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+            </a>
+        </div>
+        <span class="small">*Cada paquete incluye viaje, hospedaje por 4 noches y una excursion por dia.</span>
+    </section>
+    <!-- REEMPLAZO DEL SLIDER PARA MOBILE -->
+    <section class="paquetes-mobile d-block d-sm-none">
+        <div class="row">
+            <div class="col text-center">
+                <h3>Salta</h3>
+                <a href="producto.html"><img src="img/road.jpg" alt="Salta" width="100%"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <h3>Mendoza</h3>
+                <a href="producto.html"><img src="img/top-mountain.jpg" alt="Mendoza" width="100%"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <h3>Cancun</h3>
+                <a href="producto.html"><img src="img/cancun2.jpg" alt="Cancun" width="100%"></a>
+            </div>
+        </div>
+    </section>
+    <!-- BLOG - TESTIMONIOS -->
+    <article class="blog py-4">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col center my-3">
+                    <h2 class="titulo">Viajeros Felices</h2>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col">
+                <div class="row center mb-3">
+                    <div class="col d-flex justify-content-center align-items-center flex-md-row column">
+                    <div class="retrato">
+                        <img src="img/persona2.png" class="float-r rounded" alt="Retrato Federico Valley">
+                    </div>
+                    <div class="px-4">
+                    <h6 class="d-inline-block"><a href="#" class="link-item">Federico Valley - Camino del Inca, Peru</a></h6><span class="small mt-auto"> Enero 2020</span>
+                    <p>Mi sueño siempre fue viajar y tener aventuras. Lamentablemente uno trata de ahorrar para realizarlos y siempre hay un
+                    obstáculo. Gracias al plan de TurismoPlay, sólo puse un adelanto, viaje en el momento y ahora puedo financiarlo en
+                    cómodas cuotas ya teniendo esos hermosos recuerdos y fotografías de las aventuras que siempre quise.
+                    Entrá al blog para ver mi galería del Camino del Inca y te aseguro que comenzaras a armar el equipaje!</p>
+                    </div>
+                </div>
+                </div>
+                <div class="row center mb-3">
+                <div class="col d-flex justify-content-center align-items-center flex-md-row-reverse column">
+                    <div class="retrato">
+                        <img src="img/persona1.png" class="float-l rounded" alt="Retrato Lorena Ramos">
+                    </div>
+                    <div class="px-4">
+                    <h6 class="d-inline-block"><a href="#" class="link-item">Lorena Ramos - Rio de Janerio, Brasil</a></h6><span class="small"> Febrero 2020</span>
+                    <p>Cuando la oportunidad se presenta hay que tomarla. Conocer Brasil estaba en el top de mi lista de viajes y con
+                    TurismoPlay pude realizarlo de una manera única y especial, con el mejor precio en lista y con una compañía increíble.
+                    En mi entrada del blog encontraras recomendaciones sobre como armar tu paquete de viaje de forma económica y segura con
+                    explicación paso a paso. Además, podrás ver las fotos que saque durante mi viaje!</p>
+                    </div>
+                </div>
+                </div>
+                <div class="row center mb-3">
+                    <div class="col-md-12 d-flex justify-content-center align-items-center flex-md-row column">
+                    <div class="retrato">
+                        <img src="img/persona3.png" class="float-r rounded" alt="Retrato Diego Quinteros">
+                    </div>
+                    <div class="px-4">
+                    <h6 class="d-inline-block"><a href="#" class="link-item">Diego Quinteros - Salta, Argentina</a></h6><span class="small"> Febrero 2020</span>
+                    <p>Mi proyecto de vida es viajar. Es mi amor, mi pasión. El norte argentino es bellísimo y TurismoPlay tiene oportunidades
+                    asombrosas y descuentos exclusivos en excursiones y hoteles allí. El paquete de viaje de Salta es perfecto y se pueden
+                    extender los días pagando una diferencia que vale la pena.
+                    Entra al blog y descubre como hice para acceder al paquete y en menos de 24hs estar arriba del avión.</p>
+                    </div>
+                </div>
+                </div>
+                </div>
+        </div>
+    </article>
+    </main>
+    
+    <!-- FOOTER -->
+    <footer>
+        <div class="container my-4">
+            <div class="row d-flex flex-column flex-sm-row">
+                <div class="col-md-4 col-6 d-none d-sm-block">
+                    <ul>
+                        <li>turismoplay [arroba] gmail.com</li>
+                        <li>Av. Federico Lacroze 1234</li>
+                        <li>(011) 15-1234-5678</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-6 col-12 d-none d-sm-block">
+                    <ul>
+                        <li><b><a href="#" class="link-item">RRHH</a></b></li>
+                        <li><a href="#" class="link-item">Empleos</a></li>
+                        <li><a href="#" class="link-item">Sorteos</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 center">
+                    <form action="" class="d-flex flex-row align-items-center">
+                        <div class="form-group">
+                            <input type="email" placeholder="NEWSLETTER" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btn ml-1 rounded-pill" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-3 center">
+                    <ul class="d-flex flex-md-column flex-row">
+                        <li><a href="#" class="link-item">Facebook</a></li>
+                        <li><a href="#" class="link-item">Twitter</a></li>
+                        <li><a href="#" class="link-item">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

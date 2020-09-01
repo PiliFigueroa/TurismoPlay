@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="css/estilos.css">
+    <link type="text/css" rel="stylesheet" href="css/producto.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <title>TurismoPlay - Paquetes</title>
+</head>
+<body>
+    <!-- MENU DE NAVEGACION -->
+    <header class="verde">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <a class="navbar-brand" href="home.html">
+                            <img src="img/logo.png" width="35" height="35" class="d-inline-block align-top" alt="Logo">
+                            TurismoPlay
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#burger"
+                            aria-controls="burger" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="burger">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-white" href="#">Paquetes</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#">Travel Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#"><b>Login</b></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <!-- JUMBOTRON - ENCABEZADO -->
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-4"><b>Viajá ahora, pagá después</b></h1>
+                <p class="lead">Elegí nuestros paquetes prearmados o creá el tuyo flex personalizado. En TurismoPlay nos adaptamos a tus necesidades.</p>
+                <hr class="my-4">
+                <!-- Estos botones contendrian un evento onclick con javascript que al ejecutarse cambiarian el display none por block la opcion elegida abajo,
+                al ser el tp sin js pongo por default visible unicamente los paquetes prearmados. -->
+                <a class="btn btn-primary btn-lg px-4 rounded-pill" href="#" role="button">Paquetes</a>
+                <a class="btn verde btn-lg px-4 rounded-pill" href="#" role="button">Flex</a>
+            </div>
+        </div>
+        <!-- COLLAPSE - PAQUETES -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h3 class="titulo center mb-5">Elegiste nuestros paquetes</h3>
+                </div>
+            </div>
+        <!-- COLLAPSE PARA DESKTOP -->
+        <div class="d-none d-lg-block">
+            <p class="d-flex justify-content-between">
+                <button class="btn btn-primary px-5" type="button" data-toggle="collapse" data-target="#salta" aria-expanded="false"
+                    aria-controls="salta">Salta</button>
+                <button class="btn btn-primary px-5" type="button" data-toggle="collapse" data-target="#brasil" aria-expanded="false"
+                    aria-controls="brasil">Brasil</button>
+                <button class="btn btn-primary px-5" type="button" data-toggle="collapse" data-target="#peru" aria-expanded="false"
+                    aria-controls="peru">Peru</button>
+                <button class="btn btn-primary px-5" type="button" data-toggle="collapse" data-target="#jujuy" aria-expanded="false"
+                    aria-controls="jujuy">Jujuy</button>
+                <button class="btn btn-primary px-5" type="button" data-toggle="collapse" data-target="#ushuaia" aria-expanded="false"
+                    aria-controls="ushuaia">Ushuaia</button>
+                <button class="btn btn-primary px-5" type="button" data-toggle="collapse" data-target="#mendoza" aria-expanded="false"
+                    aria-controls="mendoza">Mendoza</button>
+            </p>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse show" id="salta">
+                        <div class="card card-body">
+                            Salta, la linda. Nuestro paquete de Salta incluye 5 dias y 4 noches en la capital, viaje en avion desde Buenos Aires con
+                            servicio en convenio con FlyBondi (ida y vuelta) y una excursion por dia. Vos elegis la fecha, nosotros hacemos el
+                            resto. No tenes que pensar en nada, relajate y disfruta: con nuestros servicios de combi tenemos todo resuelto para tu
+                            viaje. $25.000 total por persona.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="brasil">
+                        <div class="card card-body">
+                            Brasil. Nuestro paquete de Rio de Janeiro incluye 10 dias y 9 noches, viaje en avion desde Buenos
+                            Aires con
+                            servicio en convenio con FlyBondi (ida y vuelta). Podes elegir con o sin excursiones, por si solo queres recorrer la ciudad y tener tardes de playa y relajacion. De todas formas si cambias de opinion, podes pagarlo en el momento. Relajate y disfruta: el hotel elegido es all-inclusive. Precio por persona: $55.000.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="peru">
+                        <div class="card card-body">
+                            Peru. Nuestro paquete de camino del inca incluye la reservacion para la excursion (lo cual compromete la fecha de viaje a la disponibilidad de la misma),  hospedaje de 3 dias y 2 noches para que recorras lo que desees o descanses post-caminata, y recursos de sustento para la excursion (carpa, consumibles, bolsa de dormir, linterna; para ver todos los datos ver bases y condiciones) Viaje en avion desde Buenos Aires con
+                            servicio en convenio con FlyBondi (ida y vuelta). $60.000 total por persona.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="jujuy">
+                        <div class="card card-body">
+                            Jujuy. Nuestro paquete de Jujuy incluye 6 dias y 5 noches en Tilcara, viaje en avion desde Buenos Aires con
+                            servicio en convenio con FlyBondi (ida y vuelta) y una excursion por dia. Vos elegis la fecha, nosotros hacemos el
+                            resto. No tenes que pensar en nada, relajate y disfruta: con nuestros servicios de combi tenemos todo resuelto para tu
+                            viaje. $15.000 total por persona.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="ushuaia">
+                        <div class="card card-body">
+                            El fin del mundo. Nuestro paquete de Ushuaia incluye 6 dias y 5 noches, viaje en avion desde Buenos Aires con
+                            servicio en convenio con FlyBondi (ida y vuelta) y una excursion por dia. Tambien te damos el equipo de esqui. Hotel all-inclusive. Vos elegis la fecha, nosotros hacemos el
+                            resto. $30.000 total por persona.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="mendoza">
+                        <div class="card card-body">
+                            Mendoza. Nuestro paquete de Mendoza incluye 6 dias y 5 noches en San Martin de los Andes, viaje en avion desde Buenos
+                            Aires con
+                            servicio en convenio con FlyBondi (ida y vuelta) y una excursion por dia. Vos elegis la fecha, nosotros hacemos el
+                            resto. No tenes que pensar en nada, relajate y disfruta: el hotel elegido es all-inclusive. Precio por persona: $40.000.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ACCORDION-COLLAPSE PARA TABLET Y MOBILE -->
+        <div class="d-block d-lg-none">
+            <div class="accordion" id="accordion-mobile">
+                <div class="card">
+                    <div class="card-header" id="heading-salta">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-salta"
+                                aria-expanded="true" aria-controls="collapse-salta">
+                                Salta, Salta
+                            </button>
+                        </h5>
+                    </div>
+            
+                    <div id="collapse-salta" class="collapse" aria-labelledby="heading-salta" data-parent="#accordion-mobile">
+                        <div class="card-body">
+                            Salta, la linda. Nuestro paquete de Salta incluye 5 dias y 4 noches en la capital, viaje en avion desde Buenos Aires con
+                            servicio en convenio con FlyBondi (ida y vuelta) y una excursion por dia. Vos elegis la fecha, nosotros hacemos el
+                            resto. No tenes que pensar en nada, relajate y disfruta: con nuestros servicios de combi tenemos todo resuelto para tu
+                            viaje. $25.000 total por persona.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="heading-brasil">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-brasil"
+                                aria-expanded="true" aria-controls="collapse-brasil">
+                                Brasil, Rio de Janeiro
+                            </button>
+                        </h5>
+                    </div>
+                
+                    <div id="collapse-brasil" class="collapse" aria-labelledby="heading-brasil" data-parent="#accordion-mobile">
+                        <div class="card-body">
+                            Brasil. Nuestro paquete de Rio de Janeiro incluye 10 dias y 9 noches, viaje en avion desde Buenos
+                            Aires con
+                            servicio en convenio con FlyBondi (ida y vuelta). Podes elegir con o sin excursiones, por si solo queres recorrer la
+                            ciudad y tener tardes de playa y relajacion. De todas formas si cambias de opinion, podes pagarlo en el momento.
+                            Relajate y disfruta: el hotel elegido es all-inclusive. Precio por persona: $55.000.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="heading-peru">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-peru"
+                                aria-expanded="true" aria-controls="collapse-peru">
+                                Peru, Camino del Inca
+                            </button>
+                        </h5>
+                    </div>
+                
+                    <div id="collapse-peru" class="collapse" aria-labelledby="heading-peru" data-parent="#accordion-mobile">
+                        <div class="card-body">
+                            Peru. Nuestro paquete de camino del inca incluye la reservacion para la excursion (lo cual compromete la fecha de viaje
+                            a la disponibilidad de la misma), hospedaje de 3 dias y 2 noches para que recorras lo que desees o descanses
+                            post-caminata, y recursos de sustento para la excursion (carpa, consumibles, bolsa de dormir, linterna; para ver todos
+                            los datos ver bases y condiciones) Viaje en avion desde Buenos Aires con
+                            servicio en convenio con FlyBondi (ida y vuelta). $60.000 total por persona.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="heading-jujuy">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-jujuy"
+                                aria-expanded="true" aria-controls="collapse-jujuy">
+                                Jujuy, Tilcara
+                            </button>
+                        </h5>
+                    </div>
+                
+                    <div id="collapse-jujuy" class="collapse" aria-labelledby="heading-jujuy" data-parent="#accordion-mobile">
+                        <div class="card-body">
+                            Jujuy. Nuestro paquete de Jujuy incluye 6 dias y 5 noches en Tilcara, viaje en avion desde Buenos Aires con
+                            servicio en convenio con FlyBondi (ida y vuelta) y una excursion por dia. Vos elegis la fecha, nosotros hacemos el
+                            resto. No tenes que pensar en nada, relajate y disfruta: con nuestros servicios de combi tenemos todo resuelto para tu
+                            viaje. $15.000 total por persona.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="heading-ushuaia">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-ushuaia"
+                                aria-expanded="true" aria-controls="collapse-ushuaia">
+                                Ushuaia, Tierra del Fuego
+                            </button>
+                        </h5>
+                    </div>
+                
+                    <div id="collapse-ushuaia" class="collapse" aria-labelledby="heading-ushuaia" data-parent="#accordion-mobile">
+                        <div class="card-body">
+                            El fin del mundo. Nuestro paquete de Ushuaia incluye 6 dias y 5 noches, viaje en avion desde Buenos Aires con
+                            servicio en convenio con FlyBondi (ida y vuelta) y una excursion por dia. Tambien te damos el equipo de esqui. Hotel
+                            all-inclusive. Vos elegis la fecha, nosotros hacemos el
+                            resto. $30.000 total por persona.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="heading-mendoza">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-mendoza"
+                                aria-expanded="true" aria-controls="collapse-mendoza">
+                                San Martin de los Andes, Mendoza
+                            </button>
+                        </h5>
+                    </div>
+                
+                    <div id="collapse-mendoza" class="collapse" aria-labelledby="heading-mendoza" data-parent="#accordion-mobile">
+                        <div class="card-body">
+                            Mendoza. Nuestro paquete de Mendoza incluye 6 dias y 5 noches en San Martin de los Andes, viaje en avion desde Buenos
+                            Aires con
+                            servicio en convenio con FlyBondi (ida y vuelta) y una excursion por dia. Vos elegis la fecha, nosotros hacemos el
+                            resto. No tenes que pensar en nada, relajate y disfruta: el hotel elegido es all-inclusive. Precio por persona: $40.000.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- BOTON COMPRAR -->
+        <div class="container">
+            <div class="row my-3 center">
+                <div class="col-6 comprar">
+                    <a href="checkout.html" class="text-white btn btn-block verde rounded-pill">Comprar!</a>
+                </div>
+            </div>
+        </div>
+        <!-- BLOG - TESTIMONIOS -->
+        <article class="blog py-4">
+            <div class="container">
+                <div class="row mb-3">
+                    <div class="col center my-3">
+                        <h2 class="titulo">Viajeros Felices</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="row center mb-3">
+                            <div class="col d-flex justify-content-center align-items-center flex-md-row column">
+                                <div class="retrato">
+                                    <img src="img/persona2.png" class="float-r rounded" alt="Retrato Federico Valley">
+                                </div>
+                                <div class="px-4">
+                                    <h6 class="d-inline-block"><a href="#" class="link-item">Federico Valley - Camino del Inca,
+                                            Peru</a></h6><span class="small mt-auto"> Enero 2020</span>
+                                    <p>Mi sueño siempre fue viajar y tener aventuras. Lamentablemente uno trata de ahorrar para
+                                        realizarlos y siempre hay un
+                                        obstáculo. Gracias al plan de TurismoPlay, sólo puse un adelanto, viaje en el momento y
+                                        ahora puedo financiarlo en
+                                        cómodas cuotas ya teniendo esos hermosos recuerdos y fotografías de las aventuras que
+                                        siempre quise.
+                                        Entrá al blog para ver mi galería del Camino del Inca y te aseguro que comenzaras a
+                                        armar el equipaje!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row center mb-3">
+                            <div class="col d-flex justify-content-center align-items-center flex-md-row-reverse column">
+                                <div class="retrato">
+                                    <img src="img/persona1.png" class="float-l rounded" alt="Retrato Lorena Ramos">
+                                </div>
+                                <div class="px-4">
+                                    <h6 class="d-inline-block"><a href="#" class="link-item">Lorena Ramos - Rio de Janerio,
+                                            Brasil</a></h6><span class="small"> Febrero 2020</span>
+                                    <p>Cuando la oportunidad se presenta hay que tomarla. Conocer Brasil estaba en el top de mi
+                                        lista de viajes y con
+                                        TurismoPlay pude realizarlo de una manera única y especial, con el mejor precio en lista
+                                        y con una compañía increíble.
+                                        En mi entrada del blog encontraras recomendaciones sobre como armar tu paquete de viaje
+                                        de forma económica y segura con
+                                        explicación paso a paso. Además, podrás ver las fotos que saque durante mi viaje!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row center mb-3">
+                            <div class="col-md-12 d-flex justify-content-center align-items-center flex-md-row column">
+                                <div class="retrato">
+                                    <img src="img/persona3.png" class="float-r rounded" alt="Retrato Diego Quinteros">
+                                </div>
+                                <div class="px-4">
+                                    <h6 class="d-inline-block"><a href="#" class="link-item">Diego Quinteros - Salta,
+                                            Argentina</a></h6><span class="small"> Febrero 2020</span>
+                                    <p>Mi proyecto de vida es viajar. Es mi amor, mi pasión. El norte argentino es bellísimo y
+                                        TurismoPlay tiene oportunidades
+                                        asombrosas y descuentos exclusivos en excursiones y hoteles allí. El paquete de viaje de
+                                        Salta es perfecto y se pueden
+                                        extender los días pagando una diferencia que vale la pena.
+                                        Entra al blog y descubre como hice para acceder al paquete y en menos de 24hs estar
+                                        arriba del avión.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </article>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container my-4">
+            <div class="row d-flex flex-column flex-sm-row">
+                <div class="col-md-4 col-6 d-none d-md-block">
+                    <ul>
+                        <li>turismoplay [arroba] gmail.com</li>
+                        <li>Av. Federico Lacroze 1234</li>
+                        <li>(011) 15-1234-5678</li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-6 col-12 d-none d-md-block">
+                    <ul>
+                        <li><b><a href="#" class="link-item">RRHH</a></b></li>
+                        <li><a href="#" class="link-item">Empleos</a></li>
+                        <li><a href="#" class="link-item">Sorteos</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 center">
+                    <form action="" class="d-flex flex-row align-items-center">
+                        <div class="form-group">
+                            <input type="email" placeholder="NEWSLETTER" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Enviar" class="btn ml-1 rounded-pill">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-md-3 center">
+                    <ul class="d-flex flex-md-column flex-row">
+                        <li><a href="#" class="link-item">Facebook</a></li>
+                        <li><a href="#" class="link-item">Twitter</a></li>
+                        <li><a href="#" class="link-item">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
