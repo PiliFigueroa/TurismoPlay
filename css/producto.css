@@ -1,0 +1,21 @@
+/* JUMBOTRON - ENCABEZADO */
+.jumbotron .verde {color: #fff;}
+.jumbotron .verde:hover{
+    background-color: #65E240;
+    color: #fff;
+}
+
+/* BOTON COMPRAR */
+.comprar .verde:hover{
+    background-color: #65E240;
+    color: #fff;
+}
+
+/* MEDIAQUERIES */
+@media (min-width: 320px) and (max-width: 480px) {
+    /* JUMBOTRON */
+    h1 {font-size: 32px;}
+    /* FOOTER */
+    footer ul {text-align: center;}
+    footer ul li {font-size: 14px;}
+}

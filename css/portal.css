@@ -1,0 +1,38 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-image: url('../img/backg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.container {height: 100vh;}
+h1 {font-weight: 700;}
+
+.boton {
+    padding: 5px 50px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: 600;
+}
+
+.boton:hover {
+    background: #fff;
+    color: #66C449;
+}
+
+/* MEDIAQUERIES */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    h1 {font-size: 24px;}
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    h1 {font-size: 24px;}
+}

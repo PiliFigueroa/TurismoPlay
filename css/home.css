@@ -1,0 +1,122 @@
+/* BANNER BUSCADOR */
+.buscador {
+    background-image: url('../img/banner.png');
+    height: 532px;
+}
+
+.buscador .container {height: 100%;}
+.buscador-titulo {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+/* COTIZACION DEL VIAJE - PRESENTACION EMPRESA */
+.thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.thumb p {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.descripcion {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+/* BOTONES - OPCIONES DE PRODUCTO */
+.botones {
+    background-color: #6694FF;
+    padding: 40px 0;
+}
+
+.botones button {
+    background-color: #65E240;
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0 50px;
+    padding: 5px 60px;
+    border-radius: 50px;
+}
+
+.botones button:hover {
+    color: #fff;
+    background-color:#66C449;
+}
+
+/* SLIDER */
+.small {
+    color: #a7a7a7;
+}
+.paquetes-mobile {display: none;}
+
+/* BLOG - TESTIMONIOS */
+.blog {background-color: #f6f6f6;}
+.blog p {
+    font-weight: 300;
+}
+
+/* MEDIAQUERIES */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /* BANNER BUSCADOR */
+    .buscador-titulo {font-size: 24px;}
+    .buscador {height: 300px;}
+    /* BOTONES - OPCIONES DE PRODUCTOS */
+    .botones {
+        display: flex;
+        flex-direction: column;
+    }
+    .botones .btn {margin: 10px 20px;}
+    /* SLIDER */
+    .paquetes .small {display: none;}
+    .paquetes-mobile h3 {
+        font-weight: 300;
+        margin: 20px 0;
+    }
+    /* BLOG - TESTIMONIOS */
+    .column {
+        flex-direction: column;
+        text-align: justify;
+    }
+    .small {
+        display: block;
+        text-align: center;
+    }
+    .retrato {margin-bottom: 20px;}
+    .blog p,
+    .blog h6 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .blog h6 {text-align: center;}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /* BOTONES - OPCIONES DE PRODUCTO */
+    .botones .btn {
+        margin: 0 10px;
+        padding: 5px 20px;
+    }
+    /* BLOG - TESTIMONIOS */
+    .column {
+        flex-direction: column;
+        text-align: center;
+    }
+    .retrato {margin-bottom: 20px;}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    /* BOTONES - OPCIONES DE PRODUCTO */
+    .botones .btn {
+        margin: 0 10px;
+        padding: 5px 20px;
+    }
+}
