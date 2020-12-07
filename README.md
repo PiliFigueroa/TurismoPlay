@@ -8,5 +8,5 @@ Hello! This repository is my first student work for the front-end developer cour
 
 <h3>> Technologies</h3>
 
-Made with HTML5, CSS3 and Bootstrap4.
+Made with HTML5, CSS3 and Bootstrap4. <br>
 Watch -> https://pilifigueroa.github.io/TurismoPlay/
