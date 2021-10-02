@@ -2,6 +2,8 @@
 .buscador {
     background-image: url('../img/banner.png');
     height: 532px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .buscador .container {height: 100%;}
